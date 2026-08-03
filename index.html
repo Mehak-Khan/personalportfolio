@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Portfolio of Mehak Khan — software engineer, solo traveller, and scuba diver."
+  />
+  <title>Mehak Khan | Software Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="wordmark" href="#top">Mehak Khan</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="top">
+      <div class="hero-copy">
+        <p class="tiny-label">SOFTWARE ENGINEER · SOLO TRAVELLER · SCUBA DIVER</p>
+        <h1>Hi, I’m Mehak.</h1>
+        <p class="intro">
+          I build practical software across frontend, backend, and AI systems.
+          When I’m away from my laptop, I’m usually planning a solo trip,
+          finding somewhere to dive, or trying to learn a little of the local language.
+        </p>
+        <div class="actions">
+          <a class="button filled" href="#projects">See what I’ve built</a>
+          <a class="button" href="assets/Khan_Mehak_Resume.pdf" target="_blank" rel="noreferrer">View resume</a>
+        </div>
+      </div>
+
+      <div class="postcard ocean-card" aria-label="Personal interests">
+        <div class="bubble bubble-one" aria-hidden="true"></div>
+        <div class="bubble bubble-two" aria-hidden="true"></div>
+        <div class="bubble bubble-three" aria-hidden="true"></div>
+        <span class="stamp">CANADA</span>
+        <p class="postcard-title">Currently curious about</p>
+        <ul>
+          <li>Useful AI products</li>
+          <li>Places I haven’t been yet</li>
+          <li>What’s under the water</li>
+        </ul>
+        <p class="scribble">build · travel · dive</p>
+      </div>
+    </section>
+
+    <div class="wave-divider" aria-hidden="true"></div>
+
+    <section class="section shell about-section" id="about">
+      <div class="photo-wrap">
+        <img
+          src="assets/mehak-profile.jpg"
+          alt="Portrait of Mehak Khan"
+          class="profile-photo"
+        />
+      </div>
+
+      <div class="about-copy">
+        <p class="tiny-label">ABOUT ME</p>
+        <h2>I care about good software, but I’m not only my job.</h2>
+
+        <p>
+          I’m a software engineer based in Canada. I like building products that
+          make complicated work feel simpler, and I’m happiest when I can follow
+          a feature from the interface through to the systems behind it.
+        </p>
+
+        <p>
+          Travel is the other big part of my life. I love travelling solo because it keeps me curious, adaptable and open to new experiences. 
+          I have been to 26 countries solo, and 31 in total. I have a travel blog in the works to document my solo trips, and I’m always planning the next one.
+          My favourite place in the world is Philippines, and I am always hoping to return there to explore more. 
+        </p>
+
+        <p>
+          Scuba diving is where everything slows down. I love the calm of being
+          underwater, the feeling of entering a world most people rarely see, and
+          the mix of preparation and adventure that comes with every dive.
+        </p>
+
+        <p>
+          Those parts of my life shape how I work too: I adapt quickly, stay calm
+          when plans change, and genuinely enjoy learning unfamiliar systems.
+        </p>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="work">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="tiny-label">EXPERIENCE</p>
+          <h2>What I’ve been working on.</h2>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience">
+            <div class="experience-side">
+              <p class="company">IBM Canada</p>
+              <p>2024 — Present</p>
+            </div>
+            <div>
+              <h3>Software Engineer</h3>
+              <p>
+                I work on IBM Business Automation Workflow, contributing to
+                full-stack enterprise features, production support, testing, and delivery.
+              </p>
+              <ul>
+                <li>
+                  Helped build a configurable GenAI workflow component using
+                  Watsonx.ai, React, Java, and REST APIs.
+                </li>
+                <li>
+                  Implemented frontend model selection and backend routing for
+                  different model types.
+                </li>
+                <li>
+                  Supported CI/CD migration, production fixes, and Selenium regression testing.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience">
+            <div class="experience-side">
+              <p class="company">IBM Canada</p>
+              <p>2022 — 2024</p>
+            </div>
+            <div>
+              <h3>Front-End Developer Intern</h3>
+              <p>
+                Built and improved workflow-authoring experiences using React,
+                JavaScript, and IBM Carbon Design.
+              </p>
+              <ul>
+                <li>Modernized BPMN diagrams and dynamic grid-based layouts.</li>
+                <li>Contributed to a DB2-backed migration flow for product upgrades.</li>
+                <li>Integrated a UI-to-PDF service and supported client demos.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="projects">
+      <div class="section-heading">
+        <p class="tiny-label">SELECTED PROJECTS</p>
+        <h2>A few things I’m proud of.</h2>
+      </div>
+
+      <div class="project-list">
+        <article class="project">
+          <p class="project-kicker">ENTERPRISE AI</p>
+          <h3>GenAI workflow component</h3>
+          <p>
+            Helped create an AI step inside IBM Business Automation Workflow so
+            users could select a model, generate text, and continue using the
+            output throughout a business process.
+          </p>
+          <p class="stack">React · Java · REST APIs · Watsonx.ai</p>
+        </article>
+
+        <article class="project">
+          <p class="project-kicker">COMPUTER VISION RESEARCH</p>
+          <h3>SocialEyes eye-tracking system</h3>
+          <p>
+            Worked on homography mapping to project gaze points from wearable
+            eye-tracking glasses onto a shared reference view for multi-person
+            social research.
+          </p>
+          <p class="stack">Python · Kafka · React · Computer Vision</p>
+          <a class="project-link" href="https://doi.org/10.1145/3706598.3713910" target="_blank" rel="noreferrer">
+            Read the CHI 2025 paper →
+          </a>
+        </article>
+
+        <article class="project">
+          <p class="project-kicker">PERSONAL PROJECT · UNDER CONSTRUCTION</p>
+          <h3>Travel blog</h3>
+          <p>
+            I’m building a React site to document my solo travels through city guides,
+            day-by-day itineraries, hostel notes, image carousels, and activity recommendations.
+            It’s still a work in progress, so I’m currently polishing the content and experience
+            before sharing it publicly.
+          </p>
+          <p class="stack">React · React Router · JavaScript · CSS</p>
+        </article>
+
+        <article class="project">
+          <p class="project-kicker">GAME PROJECT</p>
+          <h3>2048</h3>
+          <p>
+            Built a desktop version of 2048 in Java using MVC, with game logic
+            separated into testable components.
+          </p>
+          <p class="stack">Java · MVC · JUnit</p>
+          <a class="project-link" href="https://github.com/Mehak-Khan/Game2048" target="_blank" rel="noreferrer">
+            View the code →
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="shell contact-inner">
+        <div>
+          <p class="tiny-label">CONTACT</p>
+          <h2>Say hi.</h2>
+          <p>
+            I’m open to remote software engineering roles across full-stack
+            product development and practical AI.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:mehakrafi2000@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/mehak00khan/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/mehak-khan" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <p>© <span id="year"></span> Mehak Khan</p>
+    <p>Made with HTML, CSS, and too many open travel tabs.</p>
+  </footer>
+</body>
+</html>
